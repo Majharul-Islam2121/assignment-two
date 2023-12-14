@@ -1,0 +1,122 @@
+body{padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-container{background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+nav{padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+.navbar-banner{
+    display: flex;
+    gap: 20px;
+}
+.navbar-banner img{margin-top: 20px;
+    width: 40px;
+    height: 30px;
+}
+.nav-hoba{margin-top: -10px;
+    background-color: rgb(206, 199, 199);
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#youtube{
+    color: red;
+}
+
+.play-container{margin-top: 70px;
+    display: flex;
+    height: 700px;
+    background: #e2dedee6;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.play-img{
+    width: 300px;
+    height: 300px;
+}
+.play-banner{gap: 20px;
+    display: flex;
+}
+#i{
+    margin-top: 25px;
+}
+.goat{
+   
+
+font-size: 70px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+/* text-transform: uppercase; */
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.play{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.play-p{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+}
+.sign-btn{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+
+padding:10px 15px;
+border: none;
+font-weight: 600;
+
+text-transform: uppercase;
+border-radius: 48px;
+background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+.rogur{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    
+    padding:10px 15px;
+    border: none;
+    font-weight: 600;
+    border-radius: 48px;
+background: #4EC5F7;
+    text-transform: uppercase;
+   border-radius: 48px;
+   margin-left: 16px;
+}
